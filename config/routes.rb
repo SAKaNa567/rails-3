@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'foo/home'
+
+  get 'foo/bar'
+
+  get 'foo/bazz'
+
   get 'static_pages/home'
 
   get 'static_pages/help'
